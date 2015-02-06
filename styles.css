@@ -6,3 +6,9 @@
     opacity: 0.5;
     margin-top: 10%;
 }
+
+.modal-body {
+    font-size: 384px;
+    padding: 0px;
+    margin: 0 20%;
+}
