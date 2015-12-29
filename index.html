@@ -36,30 +36,11 @@
 <div class="container">
   <div class="starter-template">
     <h1>Open Source Democracy</h1>
-    <p class="lead">Politics is broken, lets fix it.</p>
+    <p class="lead">Politics is broken, lets fix it, together.</p>
     <div class="panel panel-default">
       <div class="panel-body">
         <div class="lead" id="clock"></div>
       </div>
-    </div>
-
-    <button type="button" class="btn btn-primary" id="btn-reset">
-      <i class="glyphicon glyphicon-repeat"></i>
-      Reset countdown
-    </button>
-
-    <div class="btn-group" data-toggle="buttons">
-      <label class="btn btn-default" id="btn-pause">
-        <input type="radio" name="options" id="option2" autocomplete="off">
-        <i class="glyphicon glyphicon-pause"></i>
-        Pause
-      </label>
-
-      <label class="btn btn-default active" id="btn-resume">
-        <input type="radio" name="options" id="option2" autocomplete="off" checked>
-        <i class="glyphicon glyphicon-play"></i>
-        Resume
-      </label>
     </div>
   </div>
 </div>
@@ -74,7 +55,7 @@
 
   var $clock = $('#clock');
 
-  $clock.countdown(get15dayFromNow(), function(event) {
+  $clock.countdown(1453827956279, function(event) {
     $(this).html(event.strftime('%D days %H:%M:%S'));
   });
 
